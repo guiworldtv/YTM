@@ -23,23 +23,14 @@ jobs:
         sudo curl -L https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -o /usr/local/bin/yt-dlp
         sudo chmod a+rx /usr/local/bin/yt-dlp
 
-    - name: A PLAYLIST YOUTUBE.m3u8
+    - name: Get APLAYLISTYOUTUBE.m3u8
       run: |
-        touch ./A PLAYLIST YOUTUBE.m3u8
-        sudo cat >./A PLAYLIST YOUTUBE.m3u8 <<EOL
+        touch ./APLAYLISTYOUTUBE.m3u8
+        sudo cat >./APLAYLISTYOUTUBE.m3u8 <<EOL
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=vVy9Lgpg1m8&list=PLA50904415C9A55C7)
-        EOL
-        - name: Get PeppaPig.m3u8
-      run: |
-        touch ./PeppaPig.m3u8
-        sudo cat >./PeppaPig.m3u8 <<EOL
-        #EXTM3U
-        #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/channel/UCRi0sw4PDw-C2C7fS9hrx5Q/live)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=9Ht5RZpzPqw&list=PL7399A6BC27EBFB8D)
         EOL
     - name: Get LionFamily.m3u8
       run: |
