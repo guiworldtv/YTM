@@ -28,8 +28,7 @@ jobs:
         sudo chmod +x ffmpeg-master-latest-linux64-gpl/bin/ffmpeg ffmpeg-master-latest-linux64-gpl/bin/ffprobe
         sudo mv ffmpeg-master-latest-linux64-gpl/bin/ffmpeg ffmpeg-master-latest-linux64-gpl/bin/ffprobe /usr/local/bin/
         sudo rm -rf ffmpeg-master-latest-linux64-gpl ffmpeg-master-latest-linux64-gpl.tar.xz
-        sudo rm output/.gitkeep DL/.gitkeep UL/.gitkeep
-        echo $(date +'[%Y-%m-%d]') ${{github.event.inputs.name}} ${{github.event.inputs.m3u8url}} > 'output/link.txt'        
+        sudo rm output/.gitkeep DL/.gitkeep UL/.gitkeep    
     - name: Get TVIREALITY.m3u8
       run: |
         touch ./TVIREALITY.m3u8
