@@ -1,0 +1,10 @@
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+[cli][info] Found matching plugin youtube for URL https://www.youtube.com/watch?v=X0yB1Nxv99I
+[cli][info] Available streams: audio_mp4a, audio_opus, 360p (worst), 720p (best)
+[cli][info] Opening stream: 720p (http)
+[cli][info] Writing output to
+/home/runner/youtube.m3u
+[cli][info] Stream ended
+[cli][info] Closing currently open stream...
