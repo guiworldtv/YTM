@@ -1,4 +1,4 @@
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-https://113vod-adaptive.akamaized.net/exp=1657835055~acl=%2Fa4deaf58-1114-4d4e-a007-0c5c8cbfb1e8%2F%2A~hmac=0dc55df2897f334009c085f32af0e6e733071657a8aa805992ec6e9cb72c11bb/a4deaf58-1114-4d4e-a007-0c5c8cbfb1e8/video/5c934b8f/playlist.m3u8?query_string_ranges=1
+https://113vod-adaptive.akamaized.net/exp=1657842235~acl=%2Fa4deaf58-1114-4d4e-a007-0c5c8cbfb1e8%2F%2A~hmac=b4ed3b357d2041502f2b6a20e8b7d967002f2825c00243c3a055aab857f64ae2/a4deaf58-1114-4d4e-a007-0c5c8cbfb1e8/video/5c934b8f/playlist.m3u8?query_string_ranges=1
