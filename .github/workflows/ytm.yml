@@ -30,7 +30,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/channel/UCRi0sw4PDw-C2C7fS9hrx5Q/live)
+        $(yt-dlp --print urls https://vimeo.com/728448512)
         EOL
     - name: Get LionFamily.m3u8
       run: |
