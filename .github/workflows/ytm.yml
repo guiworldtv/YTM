@@ -39,7 +39,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls http://47.245.54.202:800/ https://www.youtube.com/c/RECORDTVJAPAN/live)
+        $(yt-dlp --print urls https://www.youtube.com/c/RECORDTVJAPAN/live)
         EOL
     - name: Get LionFamily2.m3u8
       run: |
@@ -48,7 +48,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/channel/UCjNea6tkE7f0WHR50iNPf5A/live)
+        $(yt-dlp --print urls https://archive.org/details/sportv-04.05.22-16.09)
         EOL
     - name: Get MashaandtheBear.m3u8
       run: |
