@@ -57,7 +57,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/channel/UCCqX_4VAN8RE_Jz8vlIGEUw/live)
+        $(yt-dlp --print urls https://archive.org/details/@danilod)
         EOL
     - name: Get MashaandtheBear2.m3u8
       run: |
