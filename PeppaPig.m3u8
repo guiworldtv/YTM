@@ -1,4 +1,4 @@
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-https://113vod-adaptive.akamaized.net/exp=1658396924~acl=%2Fa4deaf58-1114-4d4e-a007-0c5c8cbfb1e8%2F%2A~hmac=81e650e6a96d1949ab234afc8ad5d2907e0de97774599efd6ac7565fdcf7229c/a4deaf58-1114-4d4e-a007-0c5c8cbfb1e8/video/5c934b8f/playlist.m3u8?query_string_ranges=1
+https://skyfire.vimeocdn.com/1658404019-0xac985701b3ebf5029b3ac1fc08dfc9c7f0f8ac64/a4deaf58-1114-4d4e-a007-0c5c8cbfb1e8/video/5c934b8f/playlist.m3u8?query_string_ranges=1
